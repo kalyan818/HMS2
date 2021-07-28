@@ -1,0 +1,23 @@
+<%@page import="java.util.List"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<style><%@include file="/WEB-INF/css/homepage.css"%></style>
+    
+<!DOCTYPE html>
+<html >
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+	<title>Hompage</title>
+</head>
+<body>
+	<div class="first">
+		<div class="logoplace">
+		</div>
+		<div class="textplace">
+     				<a class="" href="http://localhost:8080/main#hero" style="color: black; font-size: 20px;">Home</a>&emsp;&emsp;
+    				<a class="" href="http://localhost:8080/main#services" style="color: black; font-size: 20px;">Service</a>&emsp;&emsp;
+    				<a class="" href="http://localhost:8080/main#about" style="color: black; font-size: 20px;">About Us</a>&emsp;&emsp;
+  				<a href="/logout" class="logout">Log Out</a>
+		</div>
+	</div>

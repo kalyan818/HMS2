@@ -1,0 +1,3 @@
+<script>
+document.getElementById("InPatient").style.background = "#b6bdfc";
+</script>

@@ -1,0 +1,3 @@
+<script>
+document.getElementById("ViewTestResult").style.background = "#b6bdfc";
+</script>
